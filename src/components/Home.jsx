@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Payment from './Payment'
 
 function Home({activePlan}) {
+  const [userData, setUserData] = useState(null);
+
+
+    // Enable this to fetch user Data from Api
+    // useEffect(() => {
+    //     axios.get(``).then((res) => setUserData(res.data))
+    // },[])
   return (
     <div className='min-h-screen flex justify-center items-center'>
       {/* <Payment/> */}

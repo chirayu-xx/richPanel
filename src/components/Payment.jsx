@@ -3,14 +3,14 @@ import React, { useEffect, useState } from "react";
 
 function Payment() {
 
-
-    const [userData, setUserData] = useState(null);
-
-
-    // Enable this to fetch user Data from Api
-    // useEffect(() => {
-    //     axios.get(``).then((res) => setUserData(res.data))
-    // },[])
+    // Can do something like this but read stripe docs will help this solve, as Im unaware to make custom payment page 
+    
+    // const [cardDetails , setCardDetails] = useState({
+    //     cardNumber: "",
+    //     month: "",
+    //     year: "",
+    //     cvv: "",
+    //   });
 
   return (
     <div className="w-full flex justify-center items-center min-h-screen">
